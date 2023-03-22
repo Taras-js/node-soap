@@ -1,0 +1,23 @@
+{
+  "name": "soap",
+  "version": "1.0.0",
+  "description": "node, express, soap",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js",
+    "dev": "nodemon app.js"
+  },
+  "keywords": [
+    "node",
+    "express",
+    "soap"
+  ],
+  "author": "Taras Schevchenko <shev-taras@ya.ru>",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "nodemon": "^2.0.21",
+    "soap": "^1.0.0",
+    "soap-cookie": "^0.10.1"
+  }
+}
